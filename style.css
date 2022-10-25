@@ -1,0 +1,81 @@
+:root {
+  --bright_orange: hsl(31, 77%, 52%);
+  --dark_cyan: hsl(184, 100%, 22%);
+  --very_dark_cyan: hsl(179, 100%, 13%);
+  --transparent_white: hsla(0, 0%, 100%, 0.75);
+  --very_light_gray: hsl(0, 0%, 95%);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: var(--very_light_gray);
+  font-size: 15px;
+}
+
+main {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+main .box{
+  width: 60%;
+  margin: auto;
+}
+
+.box {
+  border-radius: 3px;
+  padding: 3.2rem;
+  height: 60%;
+  width: auto;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+button {
+  border-radius: 20px;
+  padding: 10px;
+  border-width: 2px;
+  border-color: white;
+  margin-top: 30px;
+  color: var(--very_light_gray);
+}
+.sedan {
+  background-color: var(--bright_orange);
+}
+.suv {
+  background-color: var(--dark_cyan);
+}
+.luxury {
+  background-color: var(--very_dark_cyan);
+}
+
+button#sedan {
+  background-color: var(--bright_orange);
+}
+
+button#suv {
+  background-color: var(--dark_cyan);
+}
+button#luxury {
+  background-color: var(--very_dark_cyan);
+}
+h1 {
+  color: var(--very_light_gray);
+  margin-bottom: 20px;
+}
+p {
+  color: var(--transparent_white);
+}
+img {
+  margin-right: 60px;
+  margin-bottom: 20px;
+}
